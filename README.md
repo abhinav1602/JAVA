@@ -71,6 +71,7 @@ JAVA/
 ├── 📁 STRUCTURE.md                # Directory organization
 ├── 🤝 CONTRIBUTING.md             # Contribution guidelines
 ├── ⚖️  LICENSE                    # CC BY-NC-SA 4.0
+├── ☕ JavaBasics.java             # Start here - Fundamentals (primitives, operators, control flow)
 │
 ├── CollectionFramework/           # Module 1: Java Collections
 ├── ExceptionHandling/             # Module 2: Exception handling
@@ -299,13 +300,31 @@ Network programming basics:
 - Basic understanding of Java syntax
 - IDE (IntelliJ IDEA, Eclipse, VS Code) or text editor
 
-### Running Examples
+### First Steps - Java Fundamentals
+
+**New to Java?** Start with the basics in the root directory:
 
 ```bash
 # Clone the repository
 git clone <repository-url>
 cd JAVA
 
+# Start with Java Basics (primitives, operators, control flow)
+javac JavaBasics.java
+java JavaBasics
+```
+
+The `JavaBasics.java` file covers fundamental concepts:
+- ✅ All 8 primitive data types
+- ✅ Variables and constants
+- ✅ Arithmetic, relational, and logical operators
+- ✅ Conditional statements (if-else, switch, ternary)
+- ✅ Loops (for, while, do-while, for-each)
+- ✅ Type conversion and casting
+
+### Running Module Examples
+
+```bash
 # Navigate to a module
 cd CollectionFramework
 
